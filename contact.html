@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header starts here  -->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+
+      <nav id="menu-icon">
+        <ul>
+          <li><a href="index.html" class="nav__link">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header ends here  -->
+    <main>
+      <!--contact section starts here  -->
+      <section id="contact-section" class="section-center">
+        <h2 class="section-heading text-white">Contact Me</h2>
+        <form>
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" autocomplete="name" required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" autocomplete="email" required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div class="form-control form-btn-field">
+            <button class="btn contact__btn">Submit</button>
+          </div>
+        </form>
+      </section>
+      <!--contact section ends here  -->
+    </main>
+
+    <footer class="footer">
+      <p class="copyright__text">
+        Copyright &copy; by Anisul Islam. All rights reserved
+      </p>
+      <nav class="footer__nav">
+        <a href="#blog-banner-section" class="footer__link">
+          <i class="fa fa-home footer__icon"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/studywithanis/"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-facebook footer__icon"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/c/anisulislamrubel"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-youtube footer__icon"></i>
+        </a>
+        <a
+          href="https://github.com/anisul-Islam"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-github footer__icon"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anisul2020/"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-linkedin footer__icon"></i>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

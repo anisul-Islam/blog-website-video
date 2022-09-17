@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header starts here  -->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+      <i class="fas fa-bars fa-4x" id="menu_icon"></i>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="#" class="nav__link">Home</a></li>
+          <li><a href="#blog-about" class="nav__link">About</a></li>
+          <li><a href="#archieves" class="nav__link">Archieves</a></li>
+          <li><a href="#blog-posts" class="nav__link">Blog Posts</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header ends here  -->
+
+    <main>
+      <!-- blog-banner section starts here  -->
+      <section id="blog-banner-section" class="banner">
+        <article>
+          <h1 class="banner__heading">Web Development</h1>
+          <p class="banner__decription text-justify">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+            suscipit, non ea cum blanditiis tenetur iste eum facilis doloremque,
+            odio obcaecati! Assumenda praesentium fugiat esse provident debitis
+            aut at adipisci?
+          </p>
+        </article>
+        <aside>
+          <img
+            src="./images/cover-photo.jpg"
+            alt="cover photo"
+            class="banner__img"
+          />
+        </aside>
+      </section>
+      <!-- blog-banner section ends here  -->
+
+      <!-- about-me section starts here  -->
+      <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="cards">
+          <div class="card">
+            <h3 class="card__header">Education</h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam blanditiis rerum debitis, quod odit quibusdam explicabo
+              dolorem cumque architecto quisquam?
+            </p>
+            <button class="btn card__btn">Read More</button>
+          </div>
+          <div class="card">
+            <h3 class="card__header">Education</h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam blanditiis rerum debitis, quod odit quibusdam explicabo
+              dolorem cumque architecto quisquam?
+            </p>
+            <button class="btn card__btn">Read More</button>
+          </div>
+          <div class="card">
+            <h3 class="card__header">Education</h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam blanditiis rerum debitis, quod odit quibusdam explicabo
+              dolorem cumque architecto quisquam?
+            </p>
+            <button class="btn card__btn">Read More</button>
+          </div>
+        </div>
+      </section>
+      <!-- about-me section ends here  -->
+
+      <!-- archive section starts here  -->
+      <section id="archieves" class="section-center">
+        <h2 class="section-heading">Archieves</h2>
+        <div class="archieves-container">
+          <ul class="archieves__lists">
+            <li class="archieves__list">
+              <img
+                src="./images/img-1.jpg"
+                alt="image1"
+                class="archieves__img"
+              />
+            </li>
+
+            <li class="archieves__list">
+              <img
+                src="./images/img-2.jpg"
+                alt="image2"
+                class="archieves__img"
+              />
+            </li>
+
+            <li class="archieves__list">
+              <img
+                src="./images/img-3.jpg"
+                alt="image3"
+                class="archieves__img"
+              />
+            </li>
+
+            <li class="archieves__list">
+              <img
+                src="./images/img-1.jpg"
+                alt="image4"
+                class="archieves__img"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- archive section ends here  -->
+
+      <!-- blog-posts section starts here  -->
+      <section id="blog-posts" class="section-center">
+        <h2 class="section-heading">Blog Posts</h2>
+        <div class="blog-posts section-center">
+          <div class="blog-post">
+            <aside class="blog-post__aside">
+              <img src="./images/img-2.jpg" alt="blog-img2" />
+            </aside>
+            <article class="blog-post__content">
+              <h2 class="blog-post__heading">Blog 1</h2>
+              <h3 class="blog-post__sub-heading">this is subtitle here</h3>
+              <p class="blog-post__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                odit possimus alias placeat, ea optio ipsum in sunt voluptates
+                doloribus doloremque, vero omnis magni deserunt eum dolores nam
+                sed veniam.
+              </p>
+              <button class="btn blog-post__btn">Learn More</button>
+            </article>
+          </div>
+          <div class="blog-post">
+            <aside class="blog-post__aside">
+              <img src="./images/img-2.jpg" alt="blog-img2" />
+            </aside>
+            <article class="blog-post__content">
+              <h2 class="blog-post__heading">Blog 2</h2>
+              <h3 class="blog-post__sub-heading">this is subtitle here</h3>
+              <p class="blog-post__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                odit possimus alias placeat, ea optio ipsum in sunt voluptates
+                doloribus doloremque, vero omnis magni deserunt eum dolores nam
+                sed veniam.
+              </p>
+              <button class="btn blog-post__btn">Learn More</button>
+            </article>
+          </div>
+          <div class="blog-post">
+            <aside class="blog-post__aside">
+              <img src="./images/img-2.jpg" alt="blog-img2" />
+            </aside>
+            <article class="blog-post__content">
+              <h2 class="blog-post__heading">Blog 3</h2>
+              <h3 class="blog-post__sub-heading">this is subtitle here</h3>
+              <p class="blog-post__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                odit possimus alias placeat, ea optio ipsum in sunt voluptates
+                doloribus doloremque, vero omnis magni deserunt eum dolores nam
+                sed veniam.
+              </p>
+              <button class="btn blog-post__btn">Learn More</button>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- blog-posts section ends here  -->
+    </main>
+
+    <footer class="footer">
+      <p class="copyright__text">
+        Copyright &copy; by Anisul Islam. All rights reserved
+      </p>
+      <nav class="footer__nav">
+        <a href="#blog-banner-section" class="footer__link">
+          <i class="fa fa-home footer__icon"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/studywithanis/"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-facebook footer__icon"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/c/anisulislamrubel"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-youtube footer__icon"></i>
+        </a>
+        <a
+          href="https://github.com/anisul-Islam"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-github footer__icon"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/anisul2020/"
+          target="_blank"
+          class="footer__link"
+        >
+          <i class="fab fa-linkedin footer__icon"></i>
+        </a>
+      </nav>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
